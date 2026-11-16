@@ -21,9 +21,13 @@ It works with **Claude Code**, **Codex**, **agy**, **pi** and **Muse**, on the s
 
 ## Install
 
-1. Download `Colia.dmg` from [Releases](../../releases).
+1. Download a `.dmg` from [Releases](../../releases):
+   - `Colia-…-arm64.dmg` for a Mac with Apple silicon (M1 or newer). The smallest file; pick this one if unsure and your Mac is from 2020 or later.
+   - `Colia-…-universal.dmg` for an Intel Mac, or if you will add machines of both kinds.
 2. Open it and drag **Colia** into **Applications**.
 3. Open Colia.
+
+The files ending in `-dev` hold the same app with a daemon built for debugging: larger and slower, with more to say when something breaks. Take one only if we ask you to.
 
 This preview is not yet signed with an Apple Developer ID, so macOS stops it on the first launch. Open **System Settings → Privacy & Security**, scroll down to the line about Colia and click **Open Anyway**. You do this once.
 
